@@ -1,0 +1,22 @@
+/* Disclaimer: I wanted to make a solar system webpage because space is cool. I am
+starting this while on what is effecitvely my fourth week of "finishing" a CSS
+bootcamp and want to make stuff so why not. This is my starting point: 
+http://www.independent-software.com/deconstructing-css-3-making-of-css3-solar-system-animation-3d-transformations.html
+
+So basically, the universe through to mercury was completed, which I am using as a
+kind of reference guide to fill out the rest. It uses these insanely long SVGs, so
+I'm probably not gonna add those in because holy fuck. Anyway, I hope this goes well.
+If you are looking at this, then odds are it probably has or is.
+
+Also, I actually read the document after having sorted out the code sections, and
+apparently this is just a guide of something someone else has done, so I'm really
+reinventing the wheel here, but I guess walk then run. And I guess now I have a
+reference for when I get stuck. This kind of turned into a Diarysclaimer. Sorry for that.*/ 
+
+@import "planets";
+@import "layout";
+@import "animations";
+@import "orbits";
+@import "media";
+/* Always on the bottom.*/
+@import "images";

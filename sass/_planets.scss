@@ -1,0 +1,201 @@
+//////////////////////////////////////////
+/////////////////////////////////////////
+
+// DID YOU REMEMBER TO RE-ENABLE THE ANIMATIONS? //
+/////////////////////////////////////////
+
+// sun settings
+#sun, .planet {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 1em;
+    height: 1em;
+    margin-top: -0.5em;
+    margin-left: -0.5em;
+    border-radius: 50%;
+    // z-index: 100;
+}
+
+#sun {
+    background-color: #FB7209;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 0 3px 60px rgba(255, 160, 60, 0.4); 
+}
+
+/* Planet sizes */
+#sun {
+    font-size: 7.8rem;
+    z-index: 1;
+}
+// mercury
+#mercury {
+    font-size: 0.4rem;
+    z-index: 10;
+}
+// venus
+#venus {
+    font-size: 0.8rem;
+    z-index: 9;
+}
+
+#earth {
+    font-size: 0.9rem;
+    z-index: 8;
+}
+
+#mars {
+    font-size: 0.3rem;
+    z-index: 7;
+}
+
+#jupiter {
+    font-size: 2rem;
+    z-index: 6;
+}
+
+#saturn {
+    font-size: 1.8rem;
+    z-index: 5;
+}
+
+#neptune {
+    font-size: 1.2rem;
+    z-index: 4;
+}
+
+#uranus {
+    font-size: 1.1rem;
+    z-index: 3;
+}
+
+#pluto {
+    font-size: 0.2rem;
+    z-index: 2;
+}
+
+// planet settings
+.planet {
+    display: block;
+    align-self: center;
+}
+
+/* planet starting positions */
+#mercury .planet {
+    left: 50%;
+    top: -1%; 
+    transform: translate(-50%, 1%);
+    background-color: sandybrown;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    //change back to planet images later maybe
+    // animations
+    animation: shadow-mercury 10s infinite;
+    
+} 
+
+#venus .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: greenyellow;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // animations
+    animation-name: shadow-venus;
+    animation-duration: 3s;
+}
+
+#earth .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: darkblue;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}
+
+#mars .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: darkred;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}
+
+#jupiter .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: orange;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}
+
+#saturn .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: darkorange;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}
+
+#neptune .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: steelblue;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}
+
+#uranus .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: lightblue;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation: shadow-venus 3s;
+    // animation-duration: 3s;
+}
+
+#pluto .planet {
+    left: 50%;
+    top: -1%;
+
+    background-color: lightgrey;
+    background-repeat: repeat;
+    background-size: cover;
+
+    // animations
+    // animation-name: shadow-venus;
+    // animation-duration: 3s;
+}

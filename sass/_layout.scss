@@ -1,0 +1,43 @@
+
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #000;
+}
+
+body {
+  font-size: 62.5%;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  background-color: #08090A;
+  min-height: 100%;
+}
+
+#universe {
+  z-index: 1;
+  position: absolute;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  background-position: center 40%;
+  background-repeat: no-repeat;
+  background-size: cover; 
+}
+
+#galaxy {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  // text-align: center;
+
+  // display: flex;
+  // flex-flow: column;
+  // align-content: center;
+  // justify-content: space-evenly;
+}
