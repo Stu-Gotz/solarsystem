@@ -84,7 +84,7 @@
 /* planet starting positions */
 #mercury .planet {
     left: 50%;
-    top: -1%; 
+    top: 0; 
     transform: translate(-50%, 1%);
     background-color: sandybrown;
     background-repeat: no-repeat;
@@ -98,7 +98,7 @@
 
 #venus .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: greenyellow;
     background-repeat: no-repeat;
@@ -111,7 +111,7 @@
 
 #earth .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: darkblue;
     background-repeat: no-repeat;
@@ -124,7 +124,7 @@
 
 #mars .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: darkred;
     background-repeat: repeat;
@@ -137,7 +137,7 @@
 
 #jupiter .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: orange;
     background-repeat: repeat;
@@ -150,7 +150,7 @@
 
 #saturn .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: darkorange;
     background-repeat: repeat;
@@ -163,7 +163,7 @@
 
 #neptune .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: steelblue;
     background-repeat: repeat;
@@ -176,7 +176,7 @@
 
 #uranus .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: lightblue;
     background-repeat: repeat;
@@ -189,7 +189,7 @@
 
 #pluto .planet {
     left: 50%;
-    top: -1%;
+    top: 0;
 
     background-color: lightgrey;
     background-repeat: repeat;
